@@ -5,9 +5,8 @@ This module provides functionality to serialize and send Discord events
 to configured Kafka topics.
 """
 
-import json
 import logging
-from typing import Any, Dict, Optional, Union, Callable
+from typing import Any, Dict, Optional, Callable
 
 from confluent_kafka import Producer
 

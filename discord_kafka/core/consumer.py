@@ -5,11 +5,9 @@ This module provides functionality to consume and process Discord events
 from configured Kafka topics.
 """
 
-import json
 import logging
 import threading
-import time
-from typing import Any, Dict, List, Optional, Union, Callable, Set
+from typing import Dict, List, Optional, Callable
 
 from confluent_kafka import Consumer, KafkaError, KafkaException
 
